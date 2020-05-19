@@ -306,7 +306,7 @@
              * @returns {{formatted output}}
              */
             formatResult (place) {
-                let returnData = {};
+                let returnData = place;
                 for (let i = 0; i < place.address_components.length; i++) {
                     let addressType = place.address_components[i].types[0];
 
