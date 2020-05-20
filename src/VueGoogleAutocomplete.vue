@@ -170,6 +170,7 @@
             onFocus() {
               this.biasAutocompleteLocation();
               this.$emit('focus');
+              this.$refs.autocomplete.setAttribute('autocomplete', 'none');
             },
 
             /**
